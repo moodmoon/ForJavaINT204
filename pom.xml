@@ -5,14 +5,14 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.2.1</version>
+        <version>3.2.4</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>sit.int204</groupId>
-    <artifactId>classicmodels-service</artifactId>
+    <artifactId>test-classicmodels-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>classicmodels-service</name>
-    <description>classicmodels-service</description>
+    <name>test-classicmodels-service</name>
+    <description>test-classicmodels-service</description>
     <properties>
         <java.version>17</java.version>
     </properties>
@@ -62,47 +62,6 @@
             <artifactId>modelmapper</artifactId>
             <version>3.2.0</version>
         </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-validation</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-configuration-processor</artifactId>
-            <optional>true</optional>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-security</artifactId>
-            <version>3.2.2</version>
-        </dependency>
-        <dependency>
-            <groupId>de.mkammerer</groupId>
-            <artifactId>argon2-jvm</artifactId>
-            <version>2.11</version>
-        </dependency>
-        <dependency>
-            <groupId>org.bouncycastle</groupId>
-            <artifactId>bcprov-jdk15on</artifactId>
-            <version>1.64</version>
-        </dependency>
-        <dependency>
-            <groupId>io.jsonwebtoken</groupId>
-            <artifactId>jjwt-api</artifactId>
-            <version>0.11.5</version>
-        </dependency>
-        <dependency>
-        <groupId>io.jsonwebtoken</groupId>
-        <artifactId>jjwt-impl</artifactId>
-        <version>0.11.5</version>
-        <scope>runtime</scope>
-        </dependency>
-        <dependency>
-            <groupId>io.jsonwebtoken</groupId>
-            <artifactId>jjwt-jackson</artifactId>
-            <version>0.11.5</version>
-            <scope>runtime</scope>
-    </dependency>
     </dependencies>
 
     <build>
